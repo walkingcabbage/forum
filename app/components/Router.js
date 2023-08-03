@@ -3,8 +3,8 @@
 import { useRouter } from "next/navigation"
 
 export default function Router() {
-  useRouter
+  const router = useRouter();
   return (
-    <button ></button>
+    <button onClick={router.push('/detail/')} ></button>
   )
 }
