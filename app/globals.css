@@ -19,3 +19,11 @@ body{margin: 0;}
   color: grey;
   margin : 5px 0px;
 } 
+a{
+  text-decoration: none;
+  color: black;
+}
+.list-item{
+  opacity: 1;
+  transition: all 1s;
+}
